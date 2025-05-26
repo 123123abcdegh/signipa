@@ -1,0 +1,7 @@
+| Tham số               | Mục đích                                               | Gợi ý cấu hình   |
+| --------------------- | ------------------------------------------------------ | ---------------- |
+| `upload_max_filesize` | Kích thước tối đa 1 file                               | `5000M`          |
+| `post_max_size`       | Tổng dung lượng request (phải ≥ `upload_max_filesize`) | `5000M`          |
+| `memory_limit`        | Giới hạn bộ nhớ PHP sử dụng                            | `6000M` hoặc hơn |
+| `max_execution_time`  | Thời gian tối đa script PHP chạy                       | `300` (giây)     |
+| `max_input_time`      | Thời gian PHP cho phép đọc input                       | `300` (giây)     |
